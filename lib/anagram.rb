@@ -9,19 +9,11 @@ class Anagram
 
   def match(checker)
     returner = []
-  #   checker_red = []
-  #   checker_red << checker
-  #   checker.each { |word| word.chars.sort!.join}
-  #   new_checker = checker_red.pop
-  #   @@all.each { |word| word.chars.sort!.join}
-  #   @@all.each { |word| if word == new_checker
-  #     returner << word
-  #   end
-  #  }
    checker.each { |word| word.chars.sort!.join}
    @@all.each { |word| word.chars.sort!.join}
    i = @@all.length
    checkerrr = []
+ end
    while (i > 0)
    checkerrr << @@all.pop(1)
    if checkerrr == checker
