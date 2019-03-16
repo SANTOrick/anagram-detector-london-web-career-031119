@@ -10,7 +10,7 @@ class Anagram
   def match(checker)
     returner = []
    checker.each { |word| word.chars.sort!.join}
-   @@all.each { |word| word.chars.sort!.join}
+   self.chars.sort!.join
    i = @@all.length
    checkerrr = []
  end
