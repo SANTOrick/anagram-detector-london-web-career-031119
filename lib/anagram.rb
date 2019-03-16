@@ -11,12 +11,12 @@ class Anagram
     returner = []
    checker.each { |word| word.chars.sort!.join}
    self.chars.sort!.join
-   i = @@all.length
+   i = checker.length
    checkerrr = []
  end
    while (i > 0)
-   checkerrr << @@all.pop(1)
-   if checkerrr == checker
+   checkerrr << checker.pop(1)
+   if checkerrr == self
      returner << checkerrr.pop(1)
    else
      checkerrr.clear
