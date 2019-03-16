@@ -28,6 +28,6 @@ class Anagram
 
     returner
   end
-binding.pry
-puts "GVRBVRW"
+# binding.pry
+# puts "GVRBVRW"
 end
