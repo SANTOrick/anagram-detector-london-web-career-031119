@@ -13,7 +13,6 @@ class Anagram
    self.chars.sort!.join
    i = checker.length
    checkerrr = []
- end
    while (i > 0)
    checkerrr << checker.pop(1)
    if checkerrr == self
