@@ -15,7 +15,7 @@ class Anagram
         y1 = y.sort()
 
         if (x1) == (y1):
-            return("Anagram is True")
+            return ("Anagram is True")
         else
             return ("Anagram is False")
           end
