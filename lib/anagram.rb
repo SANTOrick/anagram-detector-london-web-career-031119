@@ -8,25 +8,44 @@ class Anagram
   end
 
   def match(checker)
-    returner = []
-   checker.each { |word| word.chars.sort!.join}
-   @content.chars.sort!.join
-   i = checker.length
-   checkerrr = []
-   while (i > 0)
-   checkerrr << checker.slice!(1)
-   if checkerrr == @content
-     returner << checkerrr.slice!(1)
-   else
-     checkerrr.clear
-     i -= 1
-   end
-        i -= 1
-   end
+        x = checker
+        y = @@all
+
+        x1 = x.sort()
+        y1 = y.sort()
+
+        if (x1) == (y1):
+            print("Anagram is True")
+        else:
+            print("Anagram is False")
+          end
+        end
 
 
-    returner
-  end
-# binding.pry
-# puts "GVRBVRW"
-end
+
+
+
+
+
+  #   returner = []
+  #  checker.each { |word| word.chars.sort!.join}
+  #  @content.chars.sort!.join
+  #  i = checker.length
+  #  checkerrr = []
+  #  while (i > 0)
+  #  checkerrr << checker.slice!(1)
+  #  if checkerrr == @content
+  #    returner << checkerrr.slice!(1)
+  #  else
+  #    checkerrr.clear
+  #    i -= 1
+  #  end
+  #       i -= 1
+  #  end
+
+
+#     returner
+#   end
+# # binding.pry
+# # puts "GVRBVRW"
+# end
