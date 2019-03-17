@@ -15,7 +15,7 @@ class Anagram
    checkerrr = []
    while (i > 0)
    checkerrr << checker.pop(1)
-   if checkerrr == self
+   if checkerrr == @content
      returner << checkerrr.pop(1)
    else
      checkerrr.clear
