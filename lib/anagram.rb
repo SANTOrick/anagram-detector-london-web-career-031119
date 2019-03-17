@@ -14,9 +14,9 @@ class Anagram
    i = checker.length
    checkerrr = []
    while (i > 0)
-   checkerrr << checker.pop(1)
+   checkerrr << checker.slice!(1)
    if checkerrr == @content
-     returner << checkerrr.pop(1)
+     returner << checkerrr.slice!(1)
    else
      checkerrr.clear
      i -= 1
