@@ -11,8 +11,8 @@ class Anagram
         x = checker
         y = @@all
 
-        x1 = x.sort()
-        y1 = y.sort()
+        x1 = x.sorted(x)
+        y1 = y.sorted(y)
 
         if (x1) == (y1)
             return ("Anagram is True")
