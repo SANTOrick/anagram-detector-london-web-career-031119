@@ -11,7 +11,7 @@ class Anagram
         x = checker
         y = @@all
 
-        x1 = x.sorted(x)
+        x1 = x.each { |word| word.chars.sorted.join}
         y1 = y.sorted(y)
 
         if (x1) == (y1)
