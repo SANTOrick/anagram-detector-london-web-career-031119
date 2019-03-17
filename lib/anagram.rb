@@ -16,8 +16,6 @@ class Anagram
 
         if (x1) == (y1):
             return ("Anagram is True")
-        else
-            return ("Anagram is False")
           end
         end
 
