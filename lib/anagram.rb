@@ -16,7 +16,7 @@ class Anagram
 
         if (x1) == (y1):
             print("Anagram is True")
-        else:
+        else
             print("Anagram is False")
           end
         end
